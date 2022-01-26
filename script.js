@@ -31,6 +31,6 @@ const linkItem = document.querySelectorAll(".nav__item");
 logo.addEventListener("click", () => nav.classList.add("open-nav"));
 backdrop.addEventListener("click", () => nav.classList.remove("open-nav"));
 
-for (let i = 0; i < linkItem.length; i++) {
+for (let i = 0; i<linkItem.length; i++) {
   linkItem[i].addEventListener("click", () => nav.classList.remove("open-nav"));
 }
